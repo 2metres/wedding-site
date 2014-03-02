@@ -1,4 +1,5 @@
-var express = require('express')
+var http = require("http")
+  , express = require('express')
   , stylus = require('stylus')
   , nib = require('nib')
 
