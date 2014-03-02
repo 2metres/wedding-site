@@ -1,10 +1,6 @@
-/*
- * Module dependencies
- */
 var express = require('express')
   , stylus = require('stylus')
   , nib = require('nib')
-
 
 var app = express()
 
@@ -14,6 +10,7 @@ function compile(str, path) {
     .use(nib());
 }
 
+app.set("port", process.env.PORT || 3000);
 app.set('views', __dirname + '/views')
 app.set('view engine', 'jade')
 app.use(express.logger('dev'))
@@ -30,4 +27,6 @@ app.get('/', function (req, res) {
   )
 })
 
-app.listen(3000)
+http.createServer(app).listen(app.get("port"), function() {
+  return console.log("Express server listening on port " + app.get("port"));
+});
