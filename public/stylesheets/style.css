@@ -89,3 +89,6 @@ td {
 a img {
   border: none;
 }
+.site-header .title {
+  color: #f00;
+}
