@@ -1,5 +1,25 @@
 @import 'nib'
-
-global-reset()
-
 @import 'jeet'
+@import 'mixins'
+
+reset-html5()
+
+body
+  margin 0
+
+.site-nav
+  background red
+
+  .nav-links
+    reset-list()
+    clearfix()
+    max-width 40em
+    margin 0 auto
+
+    li
+      span(3/12)
+      text-align center
+
+      a
+        display block
+        padding 1em
