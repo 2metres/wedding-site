@@ -9,10 +9,19 @@ block content
   section#braidwood
 
   section#party
-    ul.wedding-party-list
-      each member in weddingParty.groom
-        li
-          h1 #{member.name}
-          img(src="#{member.img}")
+    .wedding-party
+      h2 Groomspeople
+      ul.grooms-party
+        each member in weddingParty.groom
+          li
+            h1 #{member.name}
+            img(src="#{member.img}")
+
+      h2 Bridespeople
+      ul.bride-party
+        each member in weddingParty.bride
+          li
+            h1 #{member.name}
+            img(src="#{member.img}")
 
   section#registry
