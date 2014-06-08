@@ -2,12 +2,16 @@
 @import 'jeet'
 @import 'rupture'
 
-@import 'colors'
-@import 'mixins'
+@import '_colors'
+@import '_mixins'
 
-@import 'typography'
-@import 'camping-icons'
+@import '_typography'
+@import '_camping-icons'
+
 reset-html5()
+
+*
+  box-sizing(border-box)
 
 body
   margin 0
@@ -69,6 +73,9 @@ img
     padding-top 3em
 
 .wedding-party
+  h1, h2, h3, h4, h5, h6
+    text-align center
+
   ul
     cf()
     reset-list()
