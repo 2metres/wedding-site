@@ -1,17 +1,19 @@
-[
-  {
-    "side"  : "groom",
-    "name"  : "Adam Sikorski",
-    "title" : "T-Shirt Tycoon",
-    "img"   : "/images/people/adam.jpg",
-    "bio"   : "<p>Adam and Andrew met on one strange in Denver night involving nude cycling and skinny dipping in someone else's pool</p>"
-  },
-  {
-    "side"  : "bride",
-    "name"  : "Joel Mu",
-    "title" : "The Other Man",
-    "img"   : "/images/people/joel.jpg",
-    "bio"   : ""
-  }
-]
+{
+  "groom" : [
+    {
+      "name"  : "Adam Sikorski",
+      "title" : "T-Shirt Tycoon",
+      "img"   : "/images/people/adam.jpg",
+      "bio"   : "<p>Adam and Andrew met on one strange in Denver night involving nude cycling and skinny dipping in someone else's pool</p>"
+    }
+  ],
+  "bride" : [
+    {
+      "name"  : "Joel Mu",
+      "title" : "The Other Man",
+      "img"   : "/images/people/joel.jpg",
+      "bio"   : ""
+    }
+  ]
+}
 
