@@ -81,4 +81,14 @@ img
     reset-list()
 
     li
-      col(3/12)
+      +above($slate)
+        col(6/12)
+
+        &:nth-child(2n)
+          margin-right 0%
+
+      +above($tablet)
+        col(3/12)
+
+        &:nth-child(4n)
+          margin-right 0%
