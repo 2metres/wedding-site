@@ -24,7 +24,6 @@
   },
   "main": "app.js",
   "scripts": {
-    "start": "gulp",
-    "watch": "gulp nodemon"
+    "start": "gulp"
   }
 }
