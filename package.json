@@ -11,12 +11,11 @@
     "jade": "*",
     "stylus": "*",
     "nib": "*",
-    "jquery": "2.*",
     "jeet": "^5.2.10",
     "stylus-font-face": "^0.1.0"
   },
   "engine": {
-    "node": ">= 0.10.2"
+    "node": "0.10.*"
   },
   "main": "app.js",
   "scripts": {
