@@ -12,18 +12,22 @@ block content
   section#party
     .container
       .wedding-party
-        h2 Groomspeople
+        h2 The Groomspeople
         ul.grooms-party
           each member in weddingParty.groom
             li
+              img(src='#{member.img}')
               h1 #{member.name}
-              img(src="#{member.img}")
+              p #{member.title}
 
-        h2 Bridespeople
+        h2 The Bridespeople
         ul.bride-party
           each member in weddingParty.bride
             li
+              img(src='#{member.img}')
               h1 #{member.name}
-              img(src="#{member.img}")
+              p #{member.title}
 
   section#registry
+    .container
+      a(href='#registry') Gift registry

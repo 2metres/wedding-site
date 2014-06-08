@@ -8,31 +8,31 @@
     },
     {
       "name"  : "Matt Weaver",
-      "title" : "Partner in Crime",
+      "title" : "The Former Roommate",
       "img"   : "/images/people/matt.png",
       "bio"   : ""
     },
     {
       "name"  : "Jason Furnell",
-      "title" : "Partner in Crime",
+      "title" : "",
       "img"   : "/images/people/jason.png",
       "bio"   : ""
     },
     {
       "name"  : "Jack Hall",
-      "title" : "Brother in law",
+      "title" : "Brother-in-law",
       "img"   : "/images/people/jack.png",
       "bio"   : ""
     },
     {
       "name"  : "Tim O'Shea",
-      "title" : "Partner in Crime",
+      "title" : "Master of Ceremonies",
       "img"   : "/images/people/tim.png",
       "bio"   : ""
     },
     {
       "name"  : "Louise Helliwell",
-      "title" : "Brother in law",
+      "title" : "",
       "img"   : "/images/people/lou.png",
       "bio"   : ""
     }
@@ -60,7 +60,7 @@
     ,
     {
       "name"  : "Yvette Baker",
-      "title" : "Future Sister in Law",
+      "title" : "Future Sister-in-Law",
       "img"   : "/images/people/yvette.png",
       "bio"   : ""
     }
@@ -81,7 +81,7 @@
     ,
     {
       "name"  : "Emily Carr",
-      "title" : "Sister in Law",
+      "title" : "Sister-in-Law",
       "img"   : "/images/people/emily.png",
       "bio"   : ""
     }

@@ -27,8 +27,8 @@ img
 
 .container
   cf()
-  padding 0 0.5em
-  max-width 48em
+  padding 0 1em
+  max-width 60em
   margin 0 auto
 
   +above($tablet)
@@ -39,11 +39,12 @@ img
   color white
 
 .site-nav
+  transform(translateZ(0px))
   position fixed
   top 0
   right 0
   left 0
-  background rgba(white, 0.2)
+  background black
 
   .nav-links
     cf()
@@ -65,7 +66,7 @@ img
 
         &:hover,
         &:focus
-          background rgba(black, 0.2)
+          background rgba(white, 0.1)
           padding 1em 1em 0.75em 1em
           border-bottom 0.25em $primaryColor solid
 
@@ -73,16 +74,15 @@ img
     padding-top 3em
 
 .wedding-party
-  h1, h2, h3, h4, h5, h6
-    text-align center
+  text-align center
 
   ul
     cf()
     reset-list()
 
     li
-      +above($slate)
-        col(6/12)
+      +between($slate, $tablet)
+        col(4/12)
 
         &:nth-child(2n)
           margin-right 0%
