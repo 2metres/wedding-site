@@ -31,21 +31,45 @@ audio:not([controls]),
 }
 body {
   margin: 0;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, 'Roboto-Light', Arial, "Lucida Grande", sans-serif;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+.container {
+  *zoom: 1;
+  padding: 0 0.5em;
+  max-width: 60em;
+  margin: 0 auto;
+}
+.container:before,
+.container:after {
+  content: '';
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+@media only screen and (min-width: 20em) {
+  .container {
+    padding: 0;
+  }
 }
 .site-nav {
   background: #f00;
 }
 .site-nav .nav-links {
+  *zoom: 1;
   list-style: none;
   margin: 0;
   padding-left: 0;
-  zoom: 1;
   max-width: 40em;
   margin: 0 auto;
 }
 .site-nav .nav-links:before,
 .site-nav .nav-links:after {
-  content: "";
+  content: '';
   display: table;
 }
 .site-nav .nav-links:after {
@@ -75,4 +99,9 @@ body {
 .site-nav .nav-links li a {
   display: block;
   padding: 1em;
+}
+.wedding-party ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
 }

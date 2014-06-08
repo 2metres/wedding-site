@@ -3,6 +3,7 @@ var http = require("http"),
     stylus = require('stylus'),
     nib = require('nib'),
     jeet = require('jeet'),
+    rupture = require('rupture'),
     fontFace  = require('stylus-font-face');
 
 var weddingParty = require('./data/wedding-party');
@@ -13,6 +14,7 @@ function compile(str, path) {
   return stylus(str)
     .set('filename', path)
     .use(jeet())
+    .use(rupture())
     .use(fontFace())
     .use(nib());
 }

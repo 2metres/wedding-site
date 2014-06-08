@@ -12,7 +12,8 @@
     "stylus": "*",
     "nib": "*",
     "jeet": "^5.2.10",
-    "stylus-font-face": "^0.1.0"
+    "stylus-font-face": "^0.1.0",
+    "rupture": "^0.1.0"
   },
   "engine": {
     "node": "0.10.*"
