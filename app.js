@@ -5,6 +5,8 @@ var http = require("http"),
     jeet = require('jeet'),
     fontFace  = require('stylus-font-face');
 
+var weddingParty = require('./data/wedding-party');
+
 var app = express()
 
 function compile(str, path) {
@@ -30,7 +32,8 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', function (req, res) {
   res.render('index',
     {
-      title : 'Home'
+      title: 'Home',
+      weddingParty: weddingParty
     }
   );
 });
