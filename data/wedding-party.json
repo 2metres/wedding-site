@@ -11,9 +11,14 @@
     {
       "name"  : "Joel Mu",
       "title" : "The Other Man",
-      "img"   : "/images/people/joel.jpg",
+      "img"   : "/images/people/joel.png",
       "bio"   : ""
     }
+    {
+      "name"  : "Nancy de Castro",
+      "title" : "The Other Man",
+      "img"   : "/images/people/joel.jpg",
+      "bio"   : ""    }
   ]
 }
 
