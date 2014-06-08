@@ -1,0 +1,63 @@
+[
+  {
+    "name" : "Old Police Station B&B",
+    "title" : "Lovingly restored building - the perfect romantic getaway.",
+    "img" : "/images/lodging/police.jpg",
+    "url" : "http://www.visitmajorscreek.com/"
+  },
+  {
+    "name" : "Grey-Stanes Manor",
+    "title" : "Fully restored historic Braidwood B&B.",
+    "img" : "/images/lodging/grey.jpg",
+    "url" : "http://www.greystanesatbraidwood.com/"
+  },
+  {
+    "name" : "Snow Lion B&B",
+    "title" : "A beautiful two-storey terrace with an eastern flavour.",
+    "img" : "/images/lodging/lion.jpg",
+    "url" : "http://www.snowlion.com.au/"
+  },
+  {
+    "name" : "Cedar Lodge Motel",
+    "title" : "Very cute retro motel with the comfiest beds in Braidwood.",
+    "img" : "/images/lodging/cedar.jpg",
+    "url" : "http://www.braidwoodnsw.com/cedarlodge.html"
+  },
+  {
+    "name" : "Royal Mail Hotel",
+    "title" : "Traditional pub style rooms in the centre of town.",
+    "img" : "/images/lodging/mail.jpg",
+    "url" : "http://www.royalmailhotelbraidwood.com/"
+  },
+  {
+    "name" : "Braidwood Townstay",
+    "title" : "Comfortable self contained rooms on the main street.",
+    "img" : "/images/lodging/townstay.jpg",
+    "url" : "http://www.braidwoodtownstay.com.au/facilities.htm"
+  },
+  {
+    "name" : "Braidwood Colonial Motel",
+    "title" : "Quiet and comfy ensuite motel accommodation.",
+    "img" : "/images/lodging/colonial.jpg",
+    "url" : "http://www.braidwoodtownstay.com.au/facilities.htm"
+  },
+  {
+    "name" : "Clyde Cottage",
+    "title" : "A private elevated bungalow just off the main street of Braidwood.",
+    "img" : "/images/lodging/clyde.jpg",
+    "url" : "http://www.clydecottage.com.au/"
+  },
+  {
+    "name" : "Tombarra Cabins",
+    "title" : "They look a little murder-y, but come highly recommended by our caterer!.",
+    "img" : "/images/lodging/tombarra.jpg",
+    "url" : "http://www.tombarra.com.au/"
+  },
+  {
+    "name" : "Torpy's Eco Motel",
+    "title" : "Hmmm, read the reviews first and book at your own peril.",
+    "img" : "/images/lodging/torpys.jpg",
+    "url" : "http://www.torpys.com/"
+  }
+
+]
