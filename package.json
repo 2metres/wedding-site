@@ -13,13 +13,17 @@
     "nib": "*",
     "jeet": "^5.2.10",
     "stylus-font-face": "^0.1.0",
-    "rupture": "^0.1.0"
+    "rupture": "^0.1.0",
+    "gulp": "^3.7.0",
+    "gulp-jshint": "^1.6.2",
+    "gulp-nodemon": "^1.0.4",
+    "gulp-stylus": "^1.0.2"
   },
   "engine": {
     "node": "0.10.*"
   },
   "main": "app.js",
   "scripts": {
-    "start": "node app"
+    "start": "gulp"
   }
 }

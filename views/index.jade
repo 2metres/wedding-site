@@ -17,16 +17,18 @@ block content
           each member in weddingParty.groom
             li
               img(src='#{member.img}')
-              h1 #{member.name}
-              p #{member.title}
+              .info
+                h1 #{member.name}
+                p #{member.title}
 
         h2 The Bridespeople
         ul.bride-party
           each member in weddingParty.bride
             li
               img(src='#{member.img}')
-              h1 #{member.name}
-              p #{member.title}
+              .info
+                h1 #{member.name}
+                p #{member.title}
 
   section#registry
     .container
