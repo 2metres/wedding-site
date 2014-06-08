@@ -7,4 +7,9 @@ block content
       span.amp  &
       |  Andrew
 
-  div #{weddingParty[0].name}
+  ul
+    each member in weddingParty
+      li
+        h1 #{member.name}
+        h3 #{member.side}
+        img(src="#{member.img}")
