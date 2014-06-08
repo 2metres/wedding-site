@@ -32,6 +32,15 @@ audio:not([controls]),
 body {
   margin: 0;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, 'Roboto-Light', Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
 }
 img {
   display: block;
@@ -40,7 +49,7 @@ img {
 .container {
   *zoom: 1;
   padding: 0 0.5em;
-  max-width: 60em;
+  max-width: 48em;
   margin: 0 auto;
 }
 .container:before,
@@ -56,8 +65,16 @@ img {
     padding: 0;
   }
 }
+.homepage-header {
+  background: #000;
+  color: #fff;
+}
 .site-nav {
-  background: #f00;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: rgba(255,255,255,0.2);
 }
 .site-nav .nav-links {
   *zoom: 1;
@@ -97,11 +114,60 @@ img {
   clear: both;
 }
 .site-nav .nav-links li a {
+  color: #0ff;
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
   display: block;
   padding: 1em;
+  border-bottom: 0px transparent solid;
+  text-decoration: none;
+}
+.site-nav .nav-links li a:hover,
+.site-nav .nav-links li a:focus {
+  background: rgba(0,0,0,0.2);
+  padding: 1em 1em 0.75em 1em;
+  border-bottom: 0.25em #0ff solid;
+}
+.site-nav + * {
+  padding-top: 3em;
 }
 .wedding-party ul {
+  *zoom: 1;
   list-style: none;
   margin: 0;
   padding-left: 0;
+}
+.wedding-party ul:before,
+.wedding-party ul:after {
+  content: '';
+  display: table;
+}
+.wedding-party ul:after {
+  clear: both;
+}
+.wedding-party ul li {
+  *zoom: 1;
+  float: left;
+  display: inline;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 22.75%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.wedding-party ul li:before,
+.wedding-party ul li:after {
+  content: '';
+  display: table;
+}
+.wedding-party ul li:after {
+  clear: both;
+}
+.wedding-party ul li:last-child {
+  margin-right: 0%;
 }
