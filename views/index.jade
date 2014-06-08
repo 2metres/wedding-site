@@ -1,35 +1,8 @@
 extends layout
 
 block content
-  header.homepage-header
-    .container
-      h1 Robin & Andrew
-
-  section#details
-
-  section#braidwood
-
-  section#party
-    .container
-      .wedding-party
-        h2 The Cast of Characters
-        ul
-          li
-            .flipper
-          each member in weddingParty
-            li
-              .flipper
-                .front
-                  img(src='#{member.img}')
-                .back
-                  .info-outer
-                    .info-inner
-                      .info
-                        h3 #{member.name}
-                        label #{member.title}
-          li
-            .flipper
-
-  section#registry
-    .container
-      a(href='#registry') Gift registry
+  include partials/header
+  include partials/details
+  include partials/accommodation
+  include partials/wedding-party
+  include partials/registry

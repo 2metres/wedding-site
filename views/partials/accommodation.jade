@@ -1,0 +1,7 @@
+section#braidwood
+  .container
+    ul.lodging
+      each place in lodging
+        li
+          img(src='#{place.img}')
+          h3= place.name

@@ -1,7 +1,10 @@
+// libs
 var http = require("http"),
     express = require('express');
 
-var weddingParty = require('./data/wedding-party');
+// data
+var weddingParty = require('./data/wedding-party'),
+    lodging = require('./data/braidwood-lodging');
 
 var app = express();
 
@@ -16,11 +19,12 @@ app.get('/', function (req, res) {
   res.render('index',
     {
       title: 'Home',
-      weddingParty: weddingParty
+      weddingParty: weddingParty,
+      lodging : lodging
     }
   );
 });
 
 http.createServer(app).listen(app.get("port"), function() {
-  return console.log("Express server listening on port " + app.get("port"));
+  return console.log("Server listening on port " + app.get("port"));
 });
