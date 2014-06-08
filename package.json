@@ -22,7 +22,6 @@
   "engine": {
     "node": "0.10.*"
   },
-  "main": "app.js",
   "scripts": {
     "start": "gulp"
   }

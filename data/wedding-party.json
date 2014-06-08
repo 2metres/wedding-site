@@ -1,90 +1,80 @@
-{
-  "groom" : [
-    {
-      "name"  : "Adam Sikorski",
-      "title" : "T-Shirt Tycoon",
-      "img"   : "/images/people/adam.png",
-      "bio"   : "<p>Adam and Andrew met on one strange in Denver night involving nude cycling and skinny dipping in someone else's pool</p>"
-    },
-    {
-      "name"  : "Matt Weaver",
-      "title" : "The Former Poo",
-      "img"   : "/images/people/matt.png",
-      "bio"   : ""
-    },
-    {
-      "name"  : "Jason Furnell",
-      "title" : "",
-      "img"   : "/images/people/jason.png",
-      "bio"   : ""
-    },
-    {
-      "name"  : "Jack Hall",
-      "title" : "Brother-in-law",
-      "img"   : "/images/people/jack.png",
-      "bio"   : ""
-    },
-    {
-      "name"  : "Poo O'Shea",
-      "title" : "Master of Ceremonies",
-      "img"   : "/images/people/tim.png",
-      "bio"   : ""
-    },
-    {
-      "name"  : "Louise Helliwell",
-      "title" : "",
-      "img"   : "/images/people/lou.png",
-      "bio"   : ""
-    }
-  ],
-  "bride" : [
-    {
-      "name"  : "Joel Mu",
-      "title" : "The Other Man",
-      "img"   : "/images/people/joel.png",
-      "bio"   : ""
-    },
-    {
-      "name"  : "Nancy de Castro",
-      "title" : "Partner in Crime",
-      "img"   : "/images/people/nancy.png",
-      "bio"   : ""
-    }
-    ,
-    {
-      "name"  : "Veronica Eulate",
-      "title" : "Bob",
-      "img"   : "/images/people/bob.png",
-      "bio"   : ""
-    }
-    ,
-    {
-      "name"  : "Yvette Baker",
-      "title" : "Future Sister-in-Law",
-      "img"   : "/images/people/yvette.png",
-      "bio"   : ""
-    }
-    ,
-    {
-      "name"  : "Alice Morrissey",
-      "title" : "The Wedding Planner",
-      "img"   : "/images/people/alice.png",
-      "bio"   : ""
-    }
-    ,
-    {
-      "name"  : "Harry Morrissey",
-      "title" : "Soul Cousin",
-      "img"   : "/images/people/harry.png",
-      "bio"   : ""
-    }
-    ,
-    {
-      "name"  : "Emily Carr",
-      "title" : "Sister-in-Law",
-      "img"   : "/images/people/emily.png",
-      "bio"   : ""
-    }
-  ]
-}
-
+[
+  {
+    "name"  : "Adam Sikorski",
+    "title" : "T-Shirt Tycoon",
+    "img"   : "/images/people/adam.png",
+    "bio"   : "<p>Adam and Andrew met on one strange in Denver night involving nude cycling and skinny dipping in someone else's pool</p>"
+  },
+  {
+    "name"  : "Matt Weaver",
+    "title" : "The Former Roommate",
+    "img"   : "/images/people/matt.png",
+    "bio"   : ""
+  },
+  {
+    "name"  : "Jason Furnell",
+    "title" : "The Boss",
+    "img"   : "/images/people/jason.png",
+    "bio"   : ""
+  },
+  {
+    "name"  : "Jack Hall",
+    "title" : "Brother-in-law",
+    "img"   : "/images/people/jack.png",
+    "bio"   : ""
+  },
+  {
+    "name"  : "Tim O'Shea",
+    "title" : "Master of Ceremonies",
+    "img"   : "/images/people/tim.png",
+    "bio"   : ""
+  },
+  {
+    "name"  : "Louise Helliwell",
+    "title" : "All-Powerful Wizard",
+    "img"   : "/images/people/lou.png",
+    "bio"   : ""
+  },
+  {
+    "name"  : "Joel Mu",
+    "title" : "The Other Man",
+    "img"   : "/images/people/joel.png",
+    "bio"   : ""
+  },
+  {
+    "name"  : "Nancy de Castro",
+    "title" : "Partner in Crime",
+    "img"   : "/images/people/nancy.png",
+    "bio"   : ""
+  },
+  {
+    "name"  : "Veronica Eulate",
+    "title" : "Bob",
+    "img"   : "/images/people/bob.png",
+    "bio"   : ""
+  },
+  {
+    "name"  : "Yvette Baker",
+    "title" : "Future Sister-in-Law",
+    "img"   : "/images/people/yvette.png",
+    "bio"   : ""
+  },
+  {
+    "name"  : "Alice Morrissey",
+    "title" : "The Wedding Planner",
+    "img"   : "/images/people/alice.png",
+    "bio"   : ""
+  },
+  {
+    "name"  : "Harry Morrissey",
+    "title" : "Soul Cousin",
+    "img"   : "/images/people/harry.png",
+    "bio"   : ""
+  },
+  {
+    "name"  : "Emily Carr",
+    "title" : "Sister-in-Law",
+    "img"   : "/images/people/emily.png",
+    "bio"   : ""
+  }
+]

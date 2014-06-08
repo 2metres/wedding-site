@@ -14,21 +14,21 @@ block content
       .wedding-party
         h2 The Groomspeople
         ul.grooms-party
-          each member in weddingParty.groom
+          each member in weddingParty
             li
-              img(src='#{member.img}')
-              .info
-                h1 #{member.name}
-                p #{member.title}
-
-        h2 The Bridespeople
-        ul.bride-party
-          each member in weddingParty.bride
-            li
-              img(src='#{member.img}')
-              .info
-                h1 #{member.name}
-                p #{member.title}
+              .flipper
+                .front
+                  img(src='#{member.img}')
+                .back
+                  .info-outer
+                    .info-inner
+                      .info
+                        h3 #{member.name}
+                        label #{member.title}
+          li
+            .flipper
+          li
+            .flipper
 
   section#registry
     .container
