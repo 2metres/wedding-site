@@ -16,8 +16,43 @@
     },
     {
       "name"  : "Nancy de Castro",
-      "title" : "The Other Man",
+      "title" : "Partner in Crime",
       "img"   : "/images/people/nancy.png",
+      "bio"   : ""
+    }
+    ,
+    {
+      "name"  : "Veronica Eulate",
+      "title" : "Bob",
+      "img"   : "/images/people/bob.png",
+      "bio"   : ""
+    }
+    ,
+    {
+      "name"  : "Yvette Baker",
+      "title" : "Future Sister in Law",
+      "img"   : "/images/people/yvette.png",
+      "bio"   : ""
+    }
+    ,
+    {
+      "name"  : "Alice Morrissey",
+      "title" : "The Wedding Planner",
+      "img"   : "/images/people/alice.png",
+      "bio"   : ""
+    }
+    ,
+    {
+      "name"  : "Harry Morrissey",
+      "title" : "Soul Cousin",
+      "img"   : "/images/people/harry.png",
+      "bio"   : ""
+    }
+    ,
+    {
+      "name"  : "Emily Carr",
+      "title" : "Sister in Law",
+      "img"   : "/images/people/emily.png",
       "bio"   : ""
     }
   ]
