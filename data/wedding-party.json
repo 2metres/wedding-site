@@ -3,7 +3,7 @@
     {
       "name"  : "Adam Sikorski",
       "title" : "T-Shirt Tycoon",
-      "img"   : "/images/people/adam.jpg",
+      "img"   : "/images/people/adam.png",
       "bio"   : "<p>Adam and Andrew met on one strange in Denver night involving nude cycling and skinny dipping in someone else's pool</p>"
     }
   ],
@@ -13,12 +13,13 @@
       "title" : "The Other Man",
       "img"   : "/images/people/joel.png",
       "bio"   : ""
-    }
+    },
     {
       "name"  : "Nancy de Castro",
       "title" : "The Other Man",
-      "img"   : "/images/people/joel.jpg",
-      "bio"   : ""    }
+      "img"   : "/images/people/nancy.jpg",
+      "bio"   : ""
+    }
   ]
 }
 
