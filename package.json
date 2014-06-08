@@ -17,7 +17,8 @@
     "gulp": "^3.7.0",
     "gulp-jshint": "^1.6.2",
     "gulp-nodemon": "^1.0.4",
-    "gulp-stylus": "^1.0.2"
+    "gulp-stylus": "^1.0.2",
+    "waypoints": "0.0.12"
   },
   "engine": {
     "node": "0.10.*"
