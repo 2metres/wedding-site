@@ -1,0 +1,11 @@
+{
+  "name": "WeddingSite",
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "2.*",
+    "underscore": "~1.6.0",
+    "jquery-smooth-scroll": "~1.4.13",
+    "jquery-waypoints": "~2.0.5"
+  },
+  "devDependencies": {}
+}

@@ -1889,16 +1889,16 @@ img {
 .container:after {
   clear: both;
 }
-@media only screen and (min-width: 48em) {
+@media only screen and (min-width: 60em) {
   .container {
     padding: 0;
   }
 }
 .homepage-header {
   position: relative;
-  background: #000;
+  background: #ff6c5e;
   color: #fff;
-  height: 90vh;
+  height: 100vh;
 }
 .homepage-header .logo-outer {
   display: table;
@@ -1919,7 +1919,7 @@ img {
   right: 0;
   bottom: 0;
   left: 0;
-  background: #000;
+  background: #ff6c5e;
   z-index: 3;
 }
 .site-nav .nav-links {
@@ -1960,7 +1960,7 @@ img {
   clear: both;
 }
 .site-nav .nav-links li a {
-  color: #ff6347;
+  color: #fff;
   -webkit-transition: all 200ms ease-in-out;
   -moz-transition: all 200ms ease-in-out;
   -o-transition: all 200ms ease-in-out;
@@ -1975,10 +1975,68 @@ img {
 .site-nav .nav-links li a:focus {
   background: rgba(255,255,255,0.1);
   padding: 1em 1em 0.75em 1em;
-  border-bottom: 0.25em #ff6347 solid;
+  border-bottom: 0.25em #fff solid;
 }
 .site-nav + * {
   padding-top: 3em;
+}
+.site-nav.fixed-top {
+  position: fixed;
+  top: 0;
+  bottom: auto;
+}
+.map-container {
+  position: relative;
+  padding-bottom: 25%;
+}
+.map-container .map {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #e7e8e8 url("http://api.tiles.mapbox.com/v3/2metres.ifa98i6k/pin-l-star+f44(149.823,-35.447,12)/149.801,-35.444,15/1280x1270.png") no-repeat center center fixed;
+}
+.lodging {
+  *zoom: 1;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  padding: 3em 0;
+}
+.lodging:before,
+.lodging:after {
+  content: '';
+  display: table;
+}
+.lodging:after {
+  clear: both;
+}
+.lodging li {
+  *zoom: 1;
+  float: left;
+  display: inline;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 31.33333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.lodging li:before,
+.lodging li:after {
+  content: '';
+  display: table;
+}
+.lodging li:after {
+  clear: both;
+}
+.lodging li:last-child {
+  margin-right: 0%;
+}
+.lodging li:nth-child(3n) {
+  margin-right: 0%;
 }
 .wedding-party {
   text-align: center;
@@ -2125,7 +2183,7 @@ img {
   transform: rotateX(180deg);
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background: #a31900;
+  background: #af0f00;
   color: #fff;
 }
 .wedding-party li .flipper .back .info h3 {
@@ -2163,5 +2221,5 @@ img {
   transform: rotateX(180deg);
 }
 .wedding-party li:hover .flipper .back {
-  background: #ff6347;
+  background: #ff6c5e;
 }
