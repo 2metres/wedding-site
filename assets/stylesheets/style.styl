@@ -1,4 +1,5 @@
 @import 'nib'
+@import 'nib/gradients'
 @import 'jeet'
 @import 'rupture'
 
@@ -15,10 +16,7 @@ reset-html5()
 
 body
   margin 0
-  font-family $body-font
-  font-weight 300
-
-h1, h2, h3, h4, h5, h6
+  font-family $bodyFont
   font-weight 300
 
 img
@@ -35,10 +33,14 @@ img
     padding 0
 
 .homepage-header
+  background linear-gradient(top, rgb(243, 245, 128), rgb(0, 229, 173), $primaryColor 90%)
   position relative
-  background $primaryColor
   color white
-  height 100vh
+  padding 0 0.5em 2em
+  font-family $headingFont
+
+  +above($desktop)
+    height 100vh
 
   .logo-outer
     display table
@@ -48,8 +50,13 @@ img
     .logo-inner
       display table-cell
       vertical-align middle
+      text-transform uppercase
+      text-align center
+      font-size 1.5vw
+      text-shadow 0 1px 1px rgba(black, 0.08)
 
 .site-nav
+  display none
   transform(translateZ(0px))
   position absolute
   right 0
@@ -58,28 +65,32 @@ img
   background $primaryColor
   z-index 3
 
+  +above($tablet)
+    display block
+
   .nav-links
     cf()
     reset-list()
-    max-width 40em
+    max-width 54em
     margin 0 auto
 
     li
       span(3/12)
       text-align center
+      text-transform uppercase
 
       a
         color white
         transition all 200ms ease-in-out
         display block
-        padding 1em
+        padding 1em 0
         border-bottom 0px transparent solid
         text-decoration none
 
         &:hover,
         &:focus
           background rgba(white, 0.1)
-          padding 1em 1em 0.75em 1em
+          padding 1em 0 0.75em 0
           border-bottom 0.25em white solid
 
   & + *
@@ -107,11 +118,12 @@ img
   reset-list()
   padding 3em 0
 
-  li
-    col(1/3)
+  +above($tablet)
+    li
+      col(1/3)
 
-    &:nth-child(3n)
-      margin-right 0%
+      &:nth-child(3n)
+        margin-right 0%
 
 .wedding-party
   text-align center
@@ -129,6 +141,7 @@ img
 
       &:nth-child(2n)
         margin-right 0%
+        transform(translateY(50%))
 
       &:first-child
         display none

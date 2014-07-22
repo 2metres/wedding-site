@@ -1,1 +1,36 @@
-$body-font = "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, 'Roboto-Light', Arial, "Lucida Grande", sans-serif;
+$bodyFont = "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, 'Roboto-Light', Arial, "Lucida Grande", sans-serif;
+$headingFont = 'Montserrat', sans-serif;
+
+h1, h2, h3, h4, h5, h6
+  font-weight 900
+
+.lead-in
+  font-size 1.25em
+
+.robin-hall
+  font-size 5em
+  line-height 0.875
+  margin 0
+
+.andrew-carr
+  font-size 5em
+  line-height 0.875
+  margin 0
+
+.andrew, .carr,
+.robin, .hall
+  margin 0
+
+.embiggen
+  font-size 1.375em
+
+.text-block
+  cf()
+  border-top 3px white solid
+
+  i
+    font-size 3em
+
+  +above($tablet)
+    .show-mobile
+      display none
