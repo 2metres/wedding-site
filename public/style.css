@@ -1904,17 +1904,43 @@ audio:not([controls]),
 }
 body {
   margin: 0;
+  color: #fff;
+  background: #f3f580;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, 'Roboto-Light', Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
+}
+.bg {
+  position: fixed;
+  background: -webkit-linear-gradient(top, #f3f580, #00e5ad, #5c8ce5 90%);
+  background: -moz-linear-gradient(top, #f3f580, #00e5ad, #5c8ce5 90%);
+  background: -o-linear-gradient(top, #f3f580, #00e5ad, #5c8ce5 90%);
+  background: -ms-linear-gradient(top, #f3f580, #00e5ad, #5c8ce5 90%);
+  background: linear-gradient(to bottom, #f3f580, #00e5ad, #5c8ce5 90%);
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
 }
 img {
   display: block;
   max-width: 100%;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+.title {
+  text-align: center;
+}
 .container {
   *zoom: 1;
   padding: 0 1em;
-  max-width: 60em;
+  max-width: 72em;
   margin: 0 auto;
 }
 .container:before,
@@ -1931,15 +1957,9 @@ img {
   }
 }
 .homepage-header {
-  background: -webkit-linear-gradient(top, #f3f580, #00e5ad, #5c8ce5 90%);
-  background: -moz-linear-gradient(top, #f3f580, #00e5ad, #5c8ce5 90%);
-  background: -o-linear-gradient(top, #f3f580, #00e5ad, #5c8ce5 90%);
-  background: -ms-linear-gradient(top, #f3f580, #00e5ad, #5c8ce5 90%);
-  background: linear-gradient(to bottom, #f3f580, #00e5ad, #5c8ce5 90%);
   position: relative;
   color: #fff;
   padding: 0 0.5em 2em;
-  font-family: 'Montserrat', sans-serif;
 }
 @media only screen and (min-width: 60em) {
   .homepage-header {
@@ -1961,17 +1981,17 @@ img {
 }
 .site-nav {
   display: none;
-  -webkit-transform: translateZ(0px);
-  -moz-transform: translateZ(0px);
-  -o-transform: translateZ(0px);
-  -ms-transform: translateZ(0px);
-  transform: translateZ(0px);
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
-  background: #5c8ce5;
   z-index: 3;
+  border-bottom: 0.25em transparent solid;
 }
 @media only screen and (min-width: 48em) {
   .site-nav {
@@ -1983,7 +2003,6 @@ img {
   list-style: none;
   margin: 0;
   padding-left: 0;
-  max-width: 54em;
   margin: 0 auto;
 }
 .site-nav .nav-links:before,
@@ -2018,48 +2037,62 @@ img {
 }
 .site-nav .nav-links li a {
   color: #fff;
-  -webkit-transition: all 200ms ease-in-out;
-  -moz-transition: all 200ms ease-in-out;
-  -o-transition: all 200ms ease-in-out;
-  -ms-transition: all 200ms ease-in-out;
-  transition: all 200ms ease-in-out;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  position: relative;
   display: block;
   padding: 1em 0;
-  border-bottom: 0px transparent solid;
-  text-decoration: none;
 }
-.site-nav .nav-links li a:hover,
-.site-nav .nav-links li a:focus {
-  background: rgba(255,255,255,0.1);
-  padding: 1em 0 0.75em 0;
+.site-nav .nav-links li a:after {
+  content: '';
+  -webkit-transition: -webkit-transform 300ms ease-in-out;
+  -moz-transition: -moz-transform 300ms ease-in-out;
+  -o-transition: -o-transform 300ms ease-in-out;
+  -ms-transition: -ms-transform 300ms ease-in-out;
+  transition: transform 300ms ease-in-out;
   border-bottom: 0.25em #fff solid;
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -o-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
-.site-nav + * {
-  padding-top: 3em;
+.site-nav .nav-links li a:hover:after {
+  -webkit-transform: scaleX(1);
+  -moz-transform: scaleX(1);
+  -o-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
 }
 .site-nav.fixed-top {
   position: fixed;
-  top: 0;
+  border-bottom: 0.25em #fff solid;
+  background: #fff;
   bottom: auto;
-}
-.map-container {
-  position: relative;
-  padding-bottom: 25%;
-}
-.map-container .map {
-  position: absolute;
+  z-index: 100;
   top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: #e7e8e8 url("http://api.tiles.mapbox.com/v3/2metres.ifa98i6k/pin-l-star+f44(149.823,-35.447,12)/149.801,-35.444,15/1280x1270.png") no-repeat center center fixed;
+}
+.site-nav.fixed-top li a {
+  color: #00e5ad;
+}
+.site-nav.fixed-top li a:after {
+  border-color: #00e5ad;
+}
+.accomodation {
+  padding: 8em 0;
 }
 .lodging {
   *zoom: 1;
   list-style: none;
   margin: 0;
   padding-left: 0;
-  padding: 3em 0;
 }
 .lodging:before,
 .lodging:after {
@@ -2068,6 +2101,9 @@ img {
 }
 .lodging:after {
   clear: both;
+}
+.lodging li {
+  text-align: center;
 }
 @media only screen and (min-width: 48em) {
   .lodging li {
@@ -2078,9 +2114,10 @@ img {
     text-align: inherit;
     padding-left: 0;
     padding-right: 0;
-    width: 31.33333333333333%;
+    width: 48.5%;
     margin-left: 0%;
     margin-right: 3%;
+    text-align: center;
   }
   .lodging li:before,
   .lodging li:after {
@@ -2093,71 +2130,12 @@ img {
   .lodging li:last-child {
     margin-right: 0%;
   }
-  .lodging li:nth-child(3n) {
+  .lodging li:nth-child(2n) {
     margin-right: 0%;
   }
 }
-.wedding-party {
-  text-align: center;
-  *zoom: 1;
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
-}
-.wedding-party:before,
-.wedding-party:after {
-  content: '';
-  display: table;
-}
-.wedding-party:after {
-  clear: both;
-}
-.wedding-party li {
-  margin-bottom: 1em;
-  background: rgba(0,0,0,0.05);
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  -webkit-box-shadow: inset 0 0.125em 0 0 rgba(0,0,0,0.05);
-  box-shadow: inset 0 0.125em 0 0 rgba(0,0,0,0.05);
-}
-@media only screen and (max-width: 32em) {
-  .wedding-party li {
-    *zoom: 1;
-    float: left;
-    display: inline;
-    clear: none;
-    text-align: inherit;
-    padding-left: 0;
-    padding-right: 0;
-    width: 48.5%;
-    margin-left: 0%;
-    margin-right: 3%;
-  }
-  .wedding-party li:before,
-  .wedding-party li:after {
-    content: '';
-    display: table;
-  }
-  .wedding-party li:after {
-    clear: both;
-  }
-  .wedding-party li:last-child {
-    margin-right: 0%;
-  }
-  .wedding-party li:nth-child(2n) {
-    margin-right: 0%;
-    -webkit-transform: translateY(50%);
-    -moz-transform: translateY(50%);
-    -o-transform: translateY(50%);
-    -ms-transform: translateY(50%);
-    transform: translateY(50%);
-  }
-  .wedding-party li:first-child {
-    display: none;
-  }
-}
-@media only screen and (min-width: 32em) and (max-width: 48em) {
-  .wedding-party li {
+@media only screen and (min-width: 60em) {
+  .lodging li {
     *zoom: 1;
     float: left;
     display: inline;
@@ -2168,6 +2146,62 @@ img {
     width: 31.33333333333333%;
     margin-left: 0%;
     margin-right: 3%;
+    text-align: center;
+  }
+  .lodging li:before,
+  .lodging li:after {
+    content: '';
+    display: table;
+  }
+  .lodging li:after {
+    clear: both;
+  }
+  .lodging li:last-child {
+    margin-right: 0%;
+  }
+  .lodging li:nth-child(2n) {
+    margin-right: 3%;
+  }
+  .lodging li:nth-child(3n) {
+    margin-right: 0%;
+  }
+}
+.wedding-party {
+  text-align: center;
+  *zoom: 1;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  padding-left: 4%;
+}
+.wedding-party:before,
+.wedding-party:after {
+  content: '';
+  display: table;
+}
+.wedding-party:after {
+  clear: both;
+}
+.wedding-party li {
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  padding-right: 4%;
+  padding-bottom: 4%;
+}
+@media only screen and (min-width: 32em) {
+  .wedding-party li {
+    *zoom: 1;
+    float: left;
+    display: inline;
+    clear: none;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: inherit;
+    width: 33.33333333333333%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-right: 4%;
+    padding-bottom: 4%;
   }
   .wedding-party li:before,
   .wedding-party li:after {
@@ -2176,12 +2210,6 @@ img {
   }
   .wedding-party li:after {
     clear: both;
-  }
-  .wedding-party li:last-child {
-    margin-right: 0%;
-  }
-  .wedding-party li:nth-child(3n) {
-    margin-right: 0%;
   }
 }
 @media only screen and (min-width: 48em) {
@@ -2190,12 +2218,14 @@ img {
     float: left;
     display: inline;
     clear: none;
-    text-align: inherit;
     padding-left: 0;
     padding-right: 0;
-    width: 17.6%;
+    text-align: inherit;
+    width: 25%;
     margin-left: 0%;
-    margin-right: 3%;
+    margin-right: 0%;
+    padding-right: 4%;
+    padding-bottom: 4%;
   }
   .wedding-party li:before,
   .wedding-party li:after {
@@ -2205,11 +2235,29 @@ img {
   .wedding-party li:after {
     clear: both;
   }
-  .wedding-party li:last-child {
+}
+@media only screen and (min-width: 60em) {
+  .wedding-party li {
+    *zoom: 1;
+    float: left;
+    display: inline;
+    clear: none;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: inherit;
+    width: 20%;
+    margin-left: 0%;
     margin-right: 0%;
+    padding-right: 4%;
+    padding-bottom: 4%;
   }
-  .wedding-party li:nth-child(5n) {
-    margin-right: 0%;
+  .wedding-party li:before,
+  .wedding-party li:after {
+    content: '';
+    display: table;
+  }
+  .wedding-party li:after {
+    clear: both;
   }
 }
 .wedding-party li .flipper {
@@ -2228,8 +2276,8 @@ img {
   -o-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  position: relative;
   padding-bottom: 100%;
+  position: relative;
 }
 .wedding-party li .flipper .front {
   z-index: 2;
@@ -2247,8 +2295,8 @@ img {
   transform: rotateX(180deg);
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  background: #163f8a;
-  color: #fff;
+  background: #808080;
+  color: #00e5ad;
 }
 .wedding-party li .flipper .back .info h3 {
   margin: 0;
@@ -2285,5 +2333,5 @@ img {
   transform: rotateX(180deg);
 }
 .wedding-party li:hover .flipper .back {
-  background: #5c8ce5;
+  background: #fff;
 }

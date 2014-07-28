@@ -1,9 +1,7 @@
-section#braidwood
-  .map-container
-    .map
+section#braidwood.accomodation
   .container
+    h1.title Accomodation in Braidwood
     ul.lodging
       each place in lodging
         li
-          img(src='#{place.img}')
           h3= place.name
