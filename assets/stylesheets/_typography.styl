@@ -3,6 +3,7 @@ $headingFont = 'Montserrat', sans-serif;
 
 h1, h2, h3, h4, h5, h6
   font-weight 900
+  text-transform uppercase
 
 .lead-in
   font-size 1.75em
@@ -15,6 +16,12 @@ h1, h2, h3, h4, h5, h6
 
   +above($desktop)
     font-size 1.25em
+
+.logo-inner
+  font-size 4vw
+
+  +above($desktop)
+    font-size 2vw
 
 .robin-hall,
 .andrew-carr
@@ -69,14 +76,14 @@ h1, h2, h3, h4, h5, h6
     font-size 1em
 
 .knees-up
-  font-size 1.75em
+  font-size 1.5em
 
   +below($tablet)
     margin 0.75em 0
     padding 0 5%
 
   +above($tablet)
-    font-size 1.25em
+    font-size 1em
 
 .embiggen
   +above($tablet)
@@ -84,11 +91,22 @@ h1, h2, h3, h4, h5, h6
 
 .text-block
   cf()
-  border-top 3px white solid
+  font-size 1.375em
+  border-top 4px white solid
+  border-bottom 4px white solid
 
-  i
-    font-size 3em
+  +below($tablet)
+    padding 0 5%
 
   +above($tablet)
-    .show-mobile
-      display none
+    font-size 0.75em
+    border-bottom none
+
+
++above($desktop)
+  .hide-desktop
+    display none
+
++below($tablet)
+  .hide-mobile
+    display none

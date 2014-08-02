@@ -3,5 +3,7 @@ section#braidwood.accomodation
     h1.title Accomodation in Braidwood
     ul.lodging
       each place in lodging
-        li
+        li.place
           h3= place.name
+          p=place.title
+          a(href="#{place.url}") View website

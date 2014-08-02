@@ -43,10 +43,7 @@ h1, h2, h3, h4, h5, h6
 .homepage-header
   position relative
   color white
-  padding 0 0.5em 2em
-
-  +above($desktop + 1em/1600)
-    height 100vh
+  padding 2em 0.5em 10em
 
   .logo-outer
     display table
@@ -59,10 +56,6 @@ h1, h2, h3, h4, h5, h6
       text-transform uppercase
       text-align center
       text-shadow 0 1px 1px rgba(black, 0.08)
-      font-size 4vw
-
-      +above($desktop)
-        font-size 1.5vw
 
 .site-nav
   display none
@@ -138,13 +131,21 @@ h1, h2, h3, h4, h5, h6
 
 .accomodation
   padding 8em 0
+  background white
+  color $primaryColor
 
 .lodging
   cf()
   reset-list()
 
-  li
+  .place
     text-align center
+    padding 0 0 1em
+
+    p
+      padding 0 10%
+      color #555
+      min-height 4em
 
     +above($tablet)
       col(1/2)
