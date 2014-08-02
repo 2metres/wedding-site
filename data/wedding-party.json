@@ -2,79 +2,79 @@
   {
     "name"  : "Adam Sikorski",
     "title" : "T-Shirt Tycoon",
-    "img"   : "/images/people/adam.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/r_max,w_640/v1406965022/adam.png",
     "bio"   : "<p>Adam and Andrew met on one strange in Denver night involving nude cycling and skinny dipping in someone else's pool</p>"
   },
   {
     "name"  : "Matt Weaver",
     "title" : "The Former Roommate",
-    "img"   : "/images/people/matt.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/r_max,w_640/v1406964492/matt_cwmjwl.png",
     "bio"   : ""
   },
   {
     "name"  : "Jason Furnell",
     "title" : "The Boss",
-    "img"   : "/images/people/jason.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/r_max/v1406967036/jason_u7kuhz.png",
     "bio"   : ""
   },
   {
     "name"  : "Jack Hall",
     "title" : "Brother-in-law",
-    "img"   : "/images/people/jack.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_scale,r_max,w_640/v1406965002/jack.png",
     "bio"   : ""
   },
   {
     "name"  : "Tim O'Shea",
     "title" : "Master of Ceremonies",
-    "img"   : "/images/people/tim.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_crop,h_640,r_max,w_640/v1406965028/tim.png",
     "bio"   : ""
   },
   {
     "name"  : "Louise Helliwell",
     "title" : "All-Powerful Wizard",
-    "img"   : "/images/people/lou.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_scale,r_max,w_640/v1406965946/lou_tiyikn.png",
     "bio"   : ""
   },
   {
     "name"  : "Joel Mu",
     "title" : "The Other Man",
-    "img"   : "/images/people/joel.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_crop,g_face,h_640,r_max,w_640/v1406966226/joel.png",
     "bio"   : ""
   },
   {
     "name"  : "Nancy de Castro",
     "title" : "Partner in Crime",
-    "img"   : "/images/people/nancy.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_scale,r_max,w_640/v1406965000/nancy.png",
     "bio"   : ""
   },
   {
     "name"  : "Veronica Eulate",
     "title" : "Bob",
-    "img"   : "/images/people/bob.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/r_max,w_640/v1406965038/veronica.png",
     "bio"   : ""
   },
   {
     "name"  : "Yvette Baker",
     "title" : "Future Sister-in-Law",
-    "img"   : "/images/people/yvette.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_fill,g_face,h_640,r_max,w_640/v1406967032/yvette.png",
     "bio"   : ""
   },
   {
     "name"  : "Alice Morrissey",
     "title" : "The Wedding Planner",
-    "img"   : "/images/people/alice.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_scale,h_640,r_max,w_640/v1406966237/alice.png",
     "bio"   : ""
   },
   {
     "name"  : "Harry Morrissey",
     "title" : "Soul Cousin",
-    "img"   : "/images/people/harry.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_scale,r_max,w_640/v1406966356/harry.png",
     "bio"   : ""
   },
   {
     "name"  : "Emily Carr",
     "title" : "Sister-in-Law",
-    "img"   : "/images/people/emily.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_scale,r_max,w_640/v1406966359/emily.png",
     "bio"   : ""
   }
 ]
