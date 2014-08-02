@@ -5,6 +5,7 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     concat = require('gulp-concat'),
     gutil = require('gulp-util'),
+    jsonlint = require("gulp-jsonlint"),
     fontFace  = require('stylus-font-face'),
     nib = require('nib'),
     jeet = require('jeet'),
@@ -14,11 +15,7 @@ gulp.task('default', ['stylus', 'lint', 'js','server']);
 
 gulp.task('stylus', function () {
   gulp.src('./assets/stylesheets/style.styl')
-    .pipe(
-      stylus({
-        use: [nib(), jeet(), rupture(), fontFace()]
-      })
-    )
+    .pipe( stylus({use: [nib(), jeet(), rupture(), fontFace()]}) )
     .pipe(gulp.dest('./public'));
 });
 
@@ -34,6 +31,14 @@ gulp.task('js', function() {
     .pipe(uglify())
     .pipe(gulp.dest('public/'));
 });
+
+gulp.task('json', function() {
+  gulp.src("./data/*.json")
+    .pipe(jsonlint())
+    .pipe(jsonlint.reporter());
+});
+
+gulp.task('test', ['json']);
 
 gulp.task('server', function () {
   require('./app');
