@@ -21,13 +21,14 @@
     "waypoints": "0.0.12",
     "gulp-concat": "^2.2.0",
     "gulp-uglify": "^0.3.0",
-    "gulp-util": "^2.2.16"
+    "gulp-util": "^2.2.16",
+    "gulp-jsonlint": "0.0.3"
   },
   "engine": {
     "node": "0.10.*"
   },
   "scripts": {
-    "start": "gulp"
-    "test" : "gulp test"
+    "start": "gulp",
+    "test": "gulp test"
   }
 }
