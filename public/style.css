@@ -1905,22 +1905,13 @@ audio:not([controls]),
 body {
   margin: 0;
   color: #fff;
-  background: #f3f580;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, 'Roboto-Light', Arial, "Lucida Grande", sans-serif;
-  font-weight: 300;
-}
-.bg {
-  position: fixed;
   background: -webkit-linear-gradient(top, #f3f580, #00e5ad, #5c8ce5 90%);
   background: -moz-linear-gradient(top, #f3f580, #00e5ad, #5c8ce5 90%);
   background: -o-linear-gradient(top, #f3f580, #00e5ad, #5c8ce5 90%);
   background: -ms-linear-gradient(top, #f3f580, #00e5ad, #5c8ce5 90%);
   background: linear-gradient(to bottom, #f3f580, #00e5ad, #5c8ce5 90%);
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  z-index: -1;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, 'Roboto-Light', Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
 }
 img {
   display: block;
