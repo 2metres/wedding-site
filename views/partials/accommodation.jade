@@ -4,6 +4,7 @@ section#braidwood.accomodation
     ul.lodging
       each place in lodging
         li.place
+          i(class="#{place.icon}")
           h3= place.name
           p=place.title
           a.button(href="#{place.url}" target="_blank") Visit website

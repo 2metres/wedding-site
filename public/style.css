@@ -2222,7 +2222,11 @@ body > section#details {
 .lodging .place {
   text-align: center;
   padding: 0 0 1em;
-  margin: 0 0 2em 0;
+  border-right: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+}
+.lodging .place i {
+  font-size: 4em;
 }
 .lodging .place p {
   padding: 0 10%;
@@ -2264,12 +2268,12 @@ body > section#details {
     float: left;
     display: inline;
     clear: none;
-    text-align: inherit;
     padding-left: 0;
     padding-right: 0;
-    width: 31.33333333333333%;
+    text-align: inherit;
+    width: 33.33333333333333%;
     margin-left: 0%;
-    margin-right: 3%;
+    margin-right: 0%;
     text-align: center;
   }
   .lodging .place:before,
@@ -2279,15 +2283,6 @@ body > section#details {
   }
   .lodging .place:after {
     clear: both;
-  }
-  .lodging .place:last-child {
-    margin-right: 0%;
-  }
-  .lodging .place:nth-child(2n) {
-    margin-right: 3%;
-  }
-  .lodging .place:nth-child(3n) {
-    margin-right: 0%;
   }
 }
 .wedding-party {
