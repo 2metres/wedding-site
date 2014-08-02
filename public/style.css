@@ -7,17 +7,34 @@ h6 {
   font-weight: 900;
 }
 .lead-in {
-  font-size: 1.25em;
+  font-size: 1.75em;
 }
-.robin-hall {
-  font-size: 5em;
-  line-height: 0.875;
-  margin: 0;
+@media only screen and (max-width: 48em) {
+  .lead-in {
+    margin: 0.75em 0;
+  }
 }
+@media only screen and (min-width: 48em) {
+  .lead-in {
+    font-size: 1em;
+  }
+}
+@media only screen and (min-width: 60em) {
+  .lead-in {
+    font-size: 1.25em;
+  }
+}
+.robin-hall,
 .andrew-carr {
-  font-size: 5em;
+  font-size: 3.0625em;
   line-height: 0.875;
   margin: 0;
+}
+@media only screen and (min-width: 60em) {
+  .robin-hall,
+  .andrew-carr {
+    font-size: 5em;
+  }
 }
 .andrew,
 .carr,
@@ -25,8 +42,69 @@ h6 {
 .hall {
   margin: 0;
 }
-.embiggen {
-  font-size: 1.375em;
+.robin {
+  display: block;
+  font-size: 2.0625em;
+}
+@media only screen and (min-width: 48em) {
+  .robin {
+    display: inline;
+    font-size: 1em;
+  }
+}
+.hall {
+  display: block;
+  font-size: 2em;
+  margin-bottom: 0.125em;
+}
+@media only screen and (min-width: 48em) {
+  .hall {
+    display: inline;
+    font-size: 1em;
+    margin-bottom: 0;
+  }
+}
+.and {
+  margin-left: 0.125em;
+}
+.andrew {
+  display: block;
+  font-size: 1.425em;
+}
+@media only screen and (min-width: 48em) {
+  .andrew {
+    display: inline;
+    font-size: 1em;
+  }
+}
+.carr {
+  display: block;
+  font-size: 2.375em;
+}
+@media only screen and (min-width: 48em) {
+  .carr {
+    display: inline;
+    font-size: 1em;
+  }
+}
+.knees-up {
+  font-size: 1.75em;
+}
+@media only screen and (max-width: 48em) {
+  .knees-up {
+    margin: 0.75em 0;
+    padding: 0 5%;
+  }
+}
+@media only screen and (min-width: 48em) {
+  .knees-up {
+    font-size: 1.25em;
+  }
+}
+@media only screen and (min-width: 48em) {
+  .embiggen {
+    font-size: 1.375em;
+  }
 }
 .text-block {
   *zoom: 1;
@@ -1952,7 +2030,7 @@ h6 {
   color: #fff;
   padding: 0 0.5em 2em;
 }
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 60.000625em) {
   .homepage-header {
     height: 100vh;
   }
@@ -1967,8 +2045,13 @@ h6 {
   vertical-align: middle;
   text-transform: uppercase;
   text-align: center;
-  font-size: 1.5vw;
   text-shadow: 0 1px 1px rgba(0,0,0,0.08);
+  font-size: 4vw;
+}
+@media only screen and (min-width: 60em) {
+  .homepage-header .logo-outer .logo-inner {
+    font-size: 1.5vw;
+  }
 }
 .site-nav {
   display: none;
@@ -2035,6 +2118,7 @@ h6 {
   display: block;
   padding: 1em 0;
 }
+.site-nav .nav-links li a:before,
 .site-nav .nav-links li a:after {
   content: '';
   -webkit-transition: -webkit-transform 300ms ease-in-out;
@@ -2051,10 +2135,16 @@ h6 {
   position: absolute;
   margin: 0 auto;
   width: 100%;
-  bottom: 0;
   right: 0;
   left: 0;
 }
+.site-nav .nav-links li a:before {
+  top: 0;
+}
+.site-nav .nav-links li a:after {
+  bottom: 0;
+}
+.site-nav .nav-links li a:hover:before,
 .site-nav .nav-links li a:hover:after {
   -webkit-transform: scaleX(1);
   -moz-transform: scaleX(1);
@@ -2065,6 +2155,7 @@ h6 {
 .site-nav.fixed-top {
   position: fixed;
   border-bottom: 0.25em #fff solid;
+  border-top: 0.25em #fff solid;
   background: #fff;
   bottom: auto;
   z-index: 100;
@@ -2073,6 +2164,7 @@ h6 {
 .site-nav.fixed-top li a {
   color: #00e5ad;
 }
+.site-nav.fixed-top li a:before,
 .site-nav.fixed-top li a:after {
   border-color: #00e5ad;
 }
@@ -2121,7 +2213,7 @@ h6 {
   .lodging li:last-child {
     margin-right: 0%;
   }
-  .lodging li:nth-child(2n+1) {
+  .lodging li:nth-child(2n) {
     margin-right: 0%;
   }
 }
@@ -2150,10 +2242,10 @@ h6 {
   .lodging li:last-child {
     margin-right: 0%;
   }
-  .lodging li:nth-child(2n+1) {
+  .lodging li:nth-child(2n) {
     margin-right: 3%;
   }
-  .lodging li:nth-child(3n+1) {
+  .lodging li:nth-child(3n) {
     margin-right: 0%;
   }
 }
@@ -2314,6 +2406,9 @@ h6 {
 }
 .wedding-party li .flipper .front {
   z-index: 2;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  border: 8px #fff solid;
 }
 .wedding-party li .flipper .back {
   -webkit-transition: 600ms ease-in-out;

@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6
   color white
   padding 0 0.5em 2em
 
-  +above($desktop)
+  +above($desktop + 1em/1600)
     height 100vh
 
   .logo-outer
@@ -58,8 +58,11 @@ h1, h2, h3, h4, h5, h6
       vertical-align middle
       text-transform uppercase
       text-align center
-      font-size 1.5vw
       text-shadow 0 1px 1px rgba(black, 0.08)
+      font-size 4vw
+
+      +above($desktop)
+        font-size 1.5vw
 
 .site-nav
   display none
@@ -93,6 +96,7 @@ h1, h2, h3, h4, h5, h6
         display block
         padding 1em 0
 
+        &:before,
         &:after
           content ''
           transition transform 300ms ease-in-out
@@ -101,17 +105,25 @@ h1, h2, h3, h4, h5, h6
           position absolute
           margin 0 auto
           width 100%
-          bottom 0
           right 0
           left 0
 
+        &:before
+          top 0
+
+        &:after
+          bottom 0
+
         &:hover
+          &:before,
           &:after
             transform(scaleX(1))
+
 
   &.fixed-top
     position fixed
     border-bottom 0.25em white solid
+    border-top 0.25em white solid
     background white
     bottom auto
     z-index 100
@@ -120,6 +132,7 @@ h1, h2, h3, h4, h5, h6
     li a
       color $primaryColor
 
+      &:before,
       &:after
         border-color $primaryColor
 
@@ -137,17 +150,17 @@ h1, h2, h3, h4, h5, h6
       col(1/2)
       text-align center
 
-      &:nth-child(2n+1)
+      &:nth-child(2n)
         margin-right 0%
 
     +above($desktop)
       col(1/3)
       text-align center
 
-      &:nth-child(2n+1)
+      &:nth-child(2n)
         margin-right 3%
 
-      &:nth-child(3n+1)
+      &:nth-child(3n)
         margin-right 0%
 
 .wedding-party
@@ -212,6 +225,8 @@ h1, h2, h3, h4, h5, h6
 
       .front
         z-index 2
+        border-radius 100%
+        border 8px white solid
 
       .back
         transition 600ms ease-in-out

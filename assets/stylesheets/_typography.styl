@@ -5,24 +5,82 @@ h1, h2, h3, h4, h5, h6
   font-weight 900
 
 .lead-in
-  font-size 1.25em
+  font-size 1.75em
 
-.robin-hall
-  font-size 5em
-  line-height 0.875
-  margin 0
+  +below($tablet)
+    margin 0.75em 0
 
+  +above($tablet)
+    font-size 1em
+
+  +above($desktop)
+    font-size 1.25em
+
+.robin-hall,
 .andrew-carr
-  font-size 5em
+  font-size 3.0625em
   line-height 0.875
   margin 0
 
-.andrew, .carr,
-.robin, .hall
+  +above($desktop)
+    font-size 5em
+
+.andrew,
+.carr,
+.robin,
+.hall
   margin 0
+
+.robin
+  display block
+  font-size 2.0625em
+
+  +above($tablet)
+    display inline
+    font-size 1em
+
+.hall
+  display block
+  font-size 2em
+  margin-bottom 0.125em
+
+  +above($tablet)
+    display inline
+    font-size 1em
+    margin-bottom 0
+
+.and
+  margin-left 0.125em
+
+.andrew
+  display block
+  font-size 1.425em
+
+  +above($tablet)
+    display inline
+    font-size 1em
+
+.carr
+  display block
+  font-size 2.375em
+
+  +above($tablet)
+    display inline
+    font-size 1em
+
+.knees-up
+  font-size 1.75em
+
+  +below($tablet)
+    margin 0.75em 0
+    padding 0 5%
+
+  +above($tablet)
+    font-size 1.25em
 
 .embiggen
-  font-size 1.375em
+  +above($tablet)
+    font-size 1.375em
 
 .text-block
   cf()
