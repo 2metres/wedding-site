@@ -2,61 +2,61 @@
   {
     "name" : "Old Police Station B&B",
     "title" : "Lovingly restored building - the perfect romantic getaway.",
-    "img" : "/images/lodging/police.jpg",
+    "distance": 19,
     "url" : "http://www.visitmajorscreek.com/"
   },
   {
     "name" : "Grey-Stanes Manor",
     "title" : "Fully restored historic Braidwood B&B.",
-    "img" : "/images/lodging/grey.jpg",
+    "distance": 6,
     "url" : "http://www.greystanesatbraidwood.com/"
   },
   {
     "name" : "Snow Lion B&B",
     "title" : "A beautiful two-storey terrace with an eastern flavour.",
-    "img" : "/images/lodging/lion.jpg",
+    "distance": 3,
     "url" : "http://www.snowlion.com.au/"
   },
   {
     "name" : "Cedar Lodge Motel",
     "title" : "Very cute retro motel with the comfiest beds in Braidwood.",
-    "img" : "/images/lodging/cedar.jpg",
+    "distance": 4,
     "url" : "http://www.braidwoodnsw.com/cedarlodge.html"
   },
   {
     "name" : "Royal Mail Hotel",
     "title" : "Traditional pub style rooms in the centre of town.",
-    "img" : "/images/lodging/mail.jpg",
+    "distance": 4,
     "url" : "http://www.royalmailhotelbraidwood.com/"
   },
   {
     "name" : "Braidwood Townstay",
     "title" : "Comfortable self contained rooms on the main street.",
-    "img" : "/images/lodging/townstay.jpg",
+    "distance": 4,
     "url" : "http://www.braidwoodtownstay.com.au/facilities.htm"
   },
   {
     "name" : "Braidwood Colonial Motel",
     "title" : "Quiet and comfy ensuite motel accommodation.",
-    "img" : "/images/lodging/colonial.jpg",
-    "url" : "http://www.braidwoodtownstay.com.au/facilities.htm"
+    "distance": 4,
+    "url" : "http://www.braidwoodnsw.com/colonial.html"
   },
   {
     "name" : "Clyde Cottage",
     "title" : "A private elevated bungalow just off the main street of Braidwood.",
-    "img" : "/images/lodging/clyde.jpg",
+    "distance": 4,
     "url" : "http://www.clydecottage.com.au/"
   },
   {
-    "name" : "Tombarra Cabins",
-    "title" : "They look a little murder-y, but come highly recommended by our caterer!.",
-    "img" : "/images/lodging/tombarra.jpg",
-    "url" : "http://www.tombarra.com.au/"
+    "name" : "Bedervale",
+    "title" : "Bedervale is one of the most interesting colonial homesteads of Southern New South Wales.",
+    "distance": 7,
+    "url" : "http://bedervale.com/bedervale/index.htm"
   },
   {
     "name" : "Torpy's Eco Motel",
     "title" : "Hmmm, read the reviews first and book at your own peril.",
-    "img" : "/images/lodging/torpys.jpg",
+    "distance": 4,
     "url" : "http://www.torpys.com/"
   }
 ]
