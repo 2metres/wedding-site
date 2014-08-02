@@ -2169,6 +2169,8 @@ h6 {
   position: fixed;
   border-bottom: 0.25em #fff solid;
   border-top: 0.25em #fff solid;
+  -webkit-box-shadow: 0 0.125em 0.25em 0 rgba(0,0,0,0.1);
+  box-shadow: 0 0.125em 0.25em 0 rgba(0,0,0,0.1);
   background: #fff;
   bottom: auto;
   z-index: 100;
