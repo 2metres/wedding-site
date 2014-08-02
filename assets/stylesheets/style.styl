@@ -25,11 +25,23 @@ img
   display block
   max-width 100%
 
+.button
+  font-family $headingFont
+  text-transform uppercase
+  background-color $primaryColor
+  padding 0.5em 0.75em 0.375em 0.75em
+  display: inline-block
+  text-decoration none
+  line-height 1
+  color white
+
 h1, h2, h3, h4, h5, h6
   font-family $headingFont
 
 .title
+  font-size 2em
   text-align center
+  margin 0 0 2em 0
 
 .container
   cf()
@@ -130,10 +142,15 @@ h1, h2, h3, h4, h5, h6
       &:after
         border-color $primaryColor
 
-.accomodation
-  padding 8em 0
+#braidwood
   background white
   color $primaryColor
+
+body > section
+  padding 8em 0
+
+  &#details
+    padding 0
 
 .lodging
   cf()
@@ -142,11 +159,12 @@ h1, h2, h3, h4, h5, h6
   .place
     text-align center
     padding 0 0 1em
+    margin 0 0 2em 0
 
     p
       padding 0 10%
       color #555
-      min-height 4em
+      min-height 3em
 
     +above($tablet)
       col(1/2)
@@ -169,7 +187,7 @@ h1, h2, h3, h4, h5, h6
   text-align center
   reset-list()
   cf()
-  padding 0 5%
+  padding 5%
 
   li
     col(1/2)
