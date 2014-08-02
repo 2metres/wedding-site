@@ -1,17 +1,5 @@
 [
   {
-    "name" : "Old Police Station B&B",
-    "title" : "Lovingly restored building - the perfect romantic getaway.",
-    "distance": 19,
-    "url" : "http://www.visitmajorscreek.com/"
-  },
-  {
-    "name" : "Grey-Stanes Manor",
-    "title" : "Fully restored historic Braidwood B&B.",
-    "distance": 6,
-    "url" : "http://www.greystanesatbraidwood.com/"
-  },
-  {
     "name" : "Snow Lion B&B",
     "title" : "A beautiful two-storey terrace with an eastern flavour.",
     "distance": 3,
@@ -48,12 +36,6 @@
     "url" : "http://www.clydecottage.com.au/"
   },
   {
-    "name" : "Bedervale",
-    "title" : "Bedervale is one of the most interesting colonial homesteads of Southern New South Wales.",
-    "distance": 7,
-    "url" : "http://bedervale.com/bedervale/index.htm"
-  },
-  {
     "name" : "Torpy's Eco Motel",
     "title" : "Hmmm, read the reviews first and book at your own peril.",
     "distance": 4,
@@ -64,5 +46,23 @@
     "title" : "Hmmm, read the reviews first and book at your own peril.",
     "distance": 4,
     "url" : "http://www.braidwoodnsw.com/torpys_heritage_rooms.html"
+  },
+  {
+    "name" : "Grey-Stanes Manor",
+    "title" : "Fully restored historic Braidwood B&B.",
+    "distance": 6,
+    "url" : "http://www.greystanesatbraidwood.com/"
+  },
+  {
+    "name" : "Bedervale",
+    "title" : "Bedervale is one of the most interesting colonial homesteads of Southern New South Wales.",
+    "distance": 7,
+    "url" : "http://bedervale.com/bedervale/index.htm"
+  },
+  {
+    "name" : "Old Police Station B&B",
+    "title" : "Lovingly restored building - the perfect romantic getaway.",
+    "distance": 19,
+    "url" : "http://www.visitmajorscreek.com/"
   }
 ]
