@@ -57,6 +57,12 @@
     "name" : "Torpy's Eco Motel",
     "title" : "Hmmm, read the reviews first and book at your own peril.",
     "distance": 4,
-    "url" : "http://www.torpys.com/"
+    "url" : "http://www.braidwoodnsw.com/torpys_motel.html"
+  }
+    {
+    "name" : "Torpy's Hstoric Accommodation",
+    "title" : "Hmmm, read the reviews first and book at your own peril.",
+    "distance": 4,
+    "url" : "http://www.braidwoodnsw.com/torpys_heritage_rooms.html"
   }
 ]
