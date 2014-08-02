@@ -2022,11 +2022,22 @@ img {
 .button {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  background-color: #00e5ad;
-  padding: 0.5em 0.75em 0.375em 0.75em;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  background-color: rgba(0,229,173,0);
+  border: 0.125em #00e5ad solid;
+  color: #00e5ad;
+  padding: 0.925em 1.25em 0.75em 1.25em;
   display: inline-block;
   text-decoration: none;
   line-height: 1;
+}
+.button:hover {
+  border-color: #00e5ad;
+  background-color: #00e5ad;
   color: #fff;
 }
 h1,
@@ -2115,7 +2126,6 @@ h6 {
 .site-nav .nav-links li {
   *zoom: 1;
   float: left;
-  display: inline;
   clear: none;
   padding-left: 0;
   padding-right: 0;
@@ -2221,31 +2231,30 @@ body > section#details {
 }
 .lodging .place {
   text-align: center;
-  padding: 0 0 1em;
-  border-right: 1px #ccc solid;
-  border-bottom: 1px #ccc solid;
+  position: relative;
+  padding: 2em;
 }
 .lodging .place i {
   font-size: 4em;
+  color: #ddd;
 }
 .lodging .place p {
-  padding: 0 10%;
   color: #555;
-  min-height: 3em;
+  min-height: 5em;
 }
 @media only screen and (min-width: 48em) {
   .lodging .place {
     *zoom: 1;
     float: left;
-    display: inline;
     clear: none;
-    text-align: inherit;
     padding-left: 0;
     padding-right: 0;
-    width: 48.5%;
+    text-align: inherit;
+    width: 50%;
     margin-left: 0%;
-    margin-right: 3%;
+    margin-right: 0%;
     text-align: center;
+    padding: 2em;
   }
   .lodging .place:before,
   .lodging .place:after {
@@ -2255,18 +2264,11 @@ body > section#details {
   .lodging .place:after {
     clear: both;
   }
-  .lodging .place:last-child {
-    margin-right: 0%;
-  }
-  .lodging .place:nth-child(2n) {
-    margin-right: 0%;
-  }
 }
 @media only screen and (min-width: 60em) {
   .lodging .place {
     *zoom: 1;
     float: left;
-    display: inline;
     clear: none;
     padding-left: 0;
     padding-right: 0;
@@ -2275,6 +2277,7 @@ body > section#details {
     margin-left: 0%;
     margin-right: 0%;
     text-align: center;
+    padding: 2em;
   }
   .lodging .place:before,
   .lodging .place:after {
@@ -2304,7 +2307,6 @@ body > section#details {
 .wedding-party li {
   *zoom: 1;
   float: left;
-  display: inline;
   clear: none;
   text-align: inherit;
   padding-left: 0;
@@ -2342,7 +2344,6 @@ body > section#details {
   .wedding-party li {
     *zoom: 1;
     float: left;
-    display: inline;
     clear: none;
     text-align: inherit;
     padding-left: 0;
@@ -2385,7 +2386,6 @@ body > section#details {
   .wedding-party li {
     *zoom: 1;
     float: left;
-    display: inline;
     clear: none;
     text-align: inherit;
     padding-left: 0;

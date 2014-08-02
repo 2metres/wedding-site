@@ -8,13 +8,6 @@
   },
   {
     "icon": "camping-location",
-    "name" : "Cedar Lodge Motel",
-    "title" : "Very cute retro motel with the comfiest beds in Braidwood.",
-    "distance": 4,
-    "url" : "http://www.braidwoodnsw.com/cedarlodge.html"
-  },
-  {
-    "icon": "camping-location",
     "name" : "Royal Mail Hotel",
     "title" : "Traditional pub style rooms in the centre of town.",
     "distance": 4,
