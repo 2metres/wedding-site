@@ -3,91 +3,91 @@
     "name"  : "Adam",
     "party" : "Best Man",
     "title" : "T-Shirt Tycoon",
-    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/r_max,w_640/v1406965022/adam.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/r_max,w_320/v1406965022/adam.png",
     "bio"   : "<p>Adam and Andrew met on one strange in Denver night involving nude cycling and skinny dipping in someone else's pool</p>"
   },
   {
     "name"  : "Matt",
     "party" : "Groomsman",
     "title" : "The Former Roommate",
-    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/r_max,w_640/v1406964492/matt_cwmjwl.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/r_max,w_320/v1406964492/matt_cwmjwl.png",
     "bio"   : ""
   },
   {
     "name"  : "Jason",
     "party" : "Groomsman",
     "title" : "The Boss",
-    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/r_max/v1406967036/jason_u7kuhz.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/r_max,w_320/v1406967036/jason_u7kuhz.png",
     "bio"   : ""
   },
   {
     "name"  : "Jack ",
     "party" : "Bridesman",
     "title" : "Robbie's baby brother",
-    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_scale,r_max,w_640/v1406965002/jack.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_scale,r_max,w_320/v1406965002/jack.png",
     "bio"   : ""
   },
   {
     "name"  : "Timo",
     "party" : "Groomsman",
     "title" : "Master of Ceremonies",
-    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_crop,h_640,r_max,w_640/v1406965028/tim.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_scale,h_320,r_max,w_320/v1406965028/tim.png",
     "bio"   : ""
   },
   {
     "name"  : "Lou",
     "party" : "Groomswoman",
     "title" : "Our dear friend",
-    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_scale,r_max,w_640/v1406965946/lou_tiyikn.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_scale,r_max,w_320/v1406965946/lou_tiyikn.png",
     "bio"   : ""
   },
   {
     "name"  : "Joel",
     "party" : "Man of Honour",
     "title" : "The Other Man",
-    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_crop,g_face,h_640,r_max,w_640/v1406966226/joel.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_fill,h_320,r_max,w_320/v1406966226/joel.png",
     "bio"   : ""
   },
   {
     "name"  : "Nancy",
     "party" : "Bridesmaid",
     "title" : "Partner in Crime",
-    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_scale,r_max,w_640/v1406965000/nancy.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_scale,r_max,w_320/v1406965000/nancy.png",
     "bio"   : ""
   },
   {
     "name"  : "Veronica",
     "party" : "Bridesmaid",
     "title" : "Bob",
-    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/r_max,w_640/v1406965038/veronica.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/r_max,w_320/v1406965038/veronica.png",
     "bio"   : ""
   },
   {
     "name"  : "Yvette",
     "party" : "Bridesmaid",
     "title" : "Future Sister-in-Law",
-    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_fill,g_face,h_640,r_max,w_640/v1406967032/yvette.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_fill,g_face,h_320,r_max,w_320/v1406967032/yvette.png",
     "bio"   : ""
   },
   {
     "name"  : "Alice",
     "party" : "Bridesmaid",
     "title" : "Mistress of Ceremonies",
-    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_scale,h_640,r_max,w_640/v1406966237/alice.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_scale,h_320,r_max,w_320/v1406966237/alice.png",
     "bio"   : ""
   },
   {
     "name"  : "Harry",
     "party" : "Bridesman",
     "title" : "Soul Cousin",
-    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_scale,r_max,w_640/v1406966356/harry.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_scale,r_max,w_320/v1406966356/harry.png",
     "bio"   : ""
   },
   {
     "name"  : "Emily",
     "party" : "Bridesmaid",
     "title" : "Andrew's baby sister",
-    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_scale,r_max,w_640/v1406966359/emily.png",
+    "img"   : "http://res.cloudinary.com/dswyelvvr/image/upload/c_scale,r_max,w_320/v1406966359/emily.png",
     "bio"   : ""
   }
 ]

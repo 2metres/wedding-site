@@ -165,7 +165,67 @@ body > section
 
   &#details
     padding 0
+    
+.rsvp-header,
+.rsvp-content
+  margin 0 auto
+  max-width 44em
+  padding 3em
+  border 4px white solid
+  
+  h1, h2, h3
+    margin 0
+    
+.rsvp-header
+  text-align center
+  background-color white
+  color mix($yellowColor, $greenColor)
+  
+  .title
+    font-size 4em
+  
+.rsvp-content
+  border-top none
+  padding 0
 
+.registry-details
+  color $textColor
+  background-color white
+  position relative
+  margin 0 auto  
+  max-width 44em
+  padding 3em
+  
+  h1, h2, h3, h4, h5, h6
+    color mix($blueColor, $greenColor)
+    
+  .button
+    background-color rgba(mix($blueColor, $greenColor), 0)
+    border 3px mix($blueColor, $greenColor) solid
+    color mix($blueColor, $greenColor)
+
+    &:hover
+      background-color rgba(mix($blueColor, $greenColor), 1)
+      color white
+
+  
+  .registry-header
+    padding-bottom 3em
+    text-align center
+    
+    .title
+      border-bottom 3px mix($blueColor, $greenColor) solid
+      padding-bottom 0.5em
+      margin 0
+    
+  .addresses
+    cf()
+    
+    +above($tablet)
+      .address
+        col(1/2)
+        line-height 1.4
+      
 .lodging
   cf()
   reset-list()
@@ -263,7 +323,7 @@ body > section
         transform(rotateX(180deg))
         border-radius 50%
         background darken(white, 50%)
-        color darken($primaryColor, 50%)
+        color darken($blueColor, 50%)
 
         .info
           h3
@@ -296,4 +356,4 @@ body > section
 
         .back
           background white
-          color $primaryColor
+          color $blueColor

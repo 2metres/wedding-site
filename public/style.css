@@ -2226,6 +2226,103 @@ body > section {
 body > section#details {
   padding: 0;
 }
+.rsvp-header,
+.rsvp-content {
+  margin: 0 auto;
+  max-width: 44em;
+  padding: 3em;
+  border: 4px #fff solid;
+}
+.rsvp-header h1,
+.rsvp-content h1,
+.rsvp-header h2,
+.rsvp-content h2,
+.rsvp-header h3,
+.rsvp-content h3 {
+  margin: 0;
+}
+.rsvp-header {
+  text-align: center;
+  background-color: #fff;
+  color: #79ed96;
+}
+.rsvp-header .title {
+  font-size: 4em;
+}
+.rsvp-content {
+  border-top: none;
+  padding: 0;
+}
+.registry-details {
+  color: #333;
+  background-color: #fff;
+  position: relative;
+  margin: 0 auto;
+  max-width: 44em;
+  padding: 3em;
+}
+.registry-details h1,
+.registry-details h2,
+.registry-details h3,
+.registry-details h4,
+.registry-details h5,
+.registry-details h6 {
+  color: #2eb8c9;
+}
+.registry-details .button {
+  background-color: rgba(46,184,201,0);
+  border: 3px #2eb8c9 solid;
+  color: #2eb8c9;
+}
+.registry-details .button:hover {
+  background-color: #2eb8c9;
+  color: #fff;
+}
+.registry-details .registry-header {
+  padding-bottom: 3em;
+  text-align: center;
+}
+.registry-details .registry-header .title {
+  border-bottom: 3px #2eb8c9 solid;
+  padding-bottom: 0.5em;
+  margin: 0;
+}
+.registry-details .addresses {
+  *zoom: 1;
+}
+.registry-details .addresses:before,
+.registry-details .addresses:after {
+  content: '';
+  display: table;
+}
+.registry-details .addresses:after {
+  clear: both;
+}
+@media only screen and (min-width: 48em) {
+  .registry-details .addresses .address {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    padding-left: 0;
+    padding-right: 0;
+    width: 48.5%;
+    margin-left: 0%;
+    margin-right: 3%;
+    line-height: 1.4;
+  }
+  .registry-details .addresses .address:before,
+  .registry-details .addresses .address:after {
+    content: '';
+    display: table;
+  }
+  .registry-details .addresses .address:after {
+    clear: both;
+  }
+  .registry-details .addresses .address:last-child {
+    margin-right: 0%;
+  }
+}
 .lodging {
   *zoom: 1;
   list-style: none;
@@ -2471,7 +2568,7 @@ body > section#details {
   -webkit-border-radius: 50%;
   border-radius: 50%;
   background: #808080;
-  color: #007357;
+  color: #163f8a;
 }
 .wedding-party li .flipper .back .info h3 {
   margin: 0;
@@ -2509,5 +2606,5 @@ body > section#details {
 }
 .wedding-party li:hover .flipper .back {
   background: #fff;
-  color: #00e5ad;
+  color: #5c8ce5;
 }
