@@ -172,21 +172,28 @@ body > section
   max-width 44em
   padding 3em
   border 4px white solid
-  
-  h1, h2, h3
-    margin 0
     
 .rsvp-header
   text-align center
-  background-color white
-  color mix($yellowColor, $greenColor)
   
   .title
     font-size 4em
   
+  h1, h2, h3
+    margin 0
+  
 .rsvp-content
+  background white
   border-top none
-  padding 0
+  text-align center
+  
+  h3
+    color $greenColor
+    
+    +above($tablet)
+      display inline-block
+      padding-right 0.75em
+
 
 .registry-details
   color $textColor
@@ -238,12 +245,15 @@ body > section
     text-align center
     position relative
     padding 2em
+    
+    .distance
+      color #aaa
 
     i
       font-size 4em
       color #ddd
 
-    p
+    .lodging-details
       color #555
       min-height 5em
 

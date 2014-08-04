@@ -2233,25 +2233,30 @@ body > section#details {
   padding: 3em;
   border: 4px #fff solid;
 }
-.rsvp-header h1,
-.rsvp-content h1,
-.rsvp-header h2,
-.rsvp-content h2,
-.rsvp-header h3,
-.rsvp-content h3 {
-  margin: 0;
-}
 .rsvp-header {
   text-align: center;
-  background-color: #fff;
-  color: #79ed96;
 }
 .rsvp-header .title {
   font-size: 4em;
 }
+.rsvp-header h1,
+.rsvp-header h2,
+.rsvp-header h3 {
+  margin: 0;
+}
 .rsvp-content {
+  background: #fff;
   border-top: none;
-  padding: 0;
+  text-align: center;
+}
+.rsvp-content h3 {
+  color: #00e5ad;
+}
+@media only screen and (min-width: 48em) {
+  .rsvp-content h3 {
+    display: inline-block;
+    padding-right: 0.75em;
+  }
 }
 .registry-details {
   color: #333;
@@ -2346,11 +2351,14 @@ body > section#details {
   position: relative;
   padding: 2em;
 }
+.lodging .place .distance {
+  color: #aaa;
+}
 .lodging .place i {
   font-size: 4em;
   color: #ddd;
 }
-.lodging .place p {
+.lodging .place .lodging-details {
   color: #555;
   min-height: 5em;
 }

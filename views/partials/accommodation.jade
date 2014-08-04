@@ -5,6 +5,7 @@ section#braidwood.accomodation
       each place in lodging
         li.place
           i(class="#{place.icon}")
+          p.distance About #{place.distance} km away
           h3= place.name
-          p=place.title
+          p.lodging-details=place.title
           a.button(href="#{place.url}" target="_blank") Visit website
