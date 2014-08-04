@@ -11,8 +11,15 @@
 
 reset-html5()
 
-*
+html
   box-sizing(border-box)
+
+*
+  box-sizing(inherit)
+
+  &:before,
+  &:after
+    box-sizing(inherit)
 
 body
   margin 0
@@ -26,11 +33,12 @@ img
   max-width 100%
 
 .button
+  font-weight 600
   font-family $headingFont
   text-transform uppercase
   transition all 300ms ease-in-out
   background-color rgba($primaryColor, 0)
-  border 0.125em $primaryColor solid
+  border 3px $primaryColor solid
   color $primaryColor
   padding 0.925em 1.25em 0.75em 1.25em
   display: inline-block
@@ -142,11 +150,11 @@ h1, h2, h3, h4, h5, h6
     top 0
 
     li a
-      color $primaryColor
+      color $blueColor
 
       &:before,
       &:after
-        border-color $primaryColor
+        border-color $blueColor
 
 #braidwood
   background white
