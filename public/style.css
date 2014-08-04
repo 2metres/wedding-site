@@ -2255,10 +2255,14 @@ body > section#details {
 }
 .registry-details {
   color: #333;
+  border: 8px #fff solid;
   background-color: #fff;
   position: relative;
   margin: 0 auto;
   max-width: 44em;
+}
+.registry-details .registry-border {
+  border: 8px #2eb8c9 dashed;
   padding: 3em;
 }
 .registry-details h1,
