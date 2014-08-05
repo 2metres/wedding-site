@@ -2586,6 +2586,7 @@ body > section#details {
   margin: 0;
 }
 .wedding-party li .flipper .back .info label {
+  display: block;
   font-size: 0.75em;
 }
 .wedding-party li .flipper .back .info-outer {
